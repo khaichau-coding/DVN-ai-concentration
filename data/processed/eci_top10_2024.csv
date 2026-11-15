@@ -1,0 +1,11 @@
+Rank,Model,Organization,date,eci,Company
+1,o1,OpenAI,2024-12-17,141.72,OpenAI
+2,o1-mini,OpenAI,2024-09-12,135.7,OpenAI
+3,Gemini 2.0 Flash (Dec 2024),"Google DeepMind,Google",2024-12-11,134.58,Google
+4,o1-preview,OpenAI,2024-09-12,134.57,OpenAI
+5,Claude 3.5 Sonnet (October 2024),Anthropic,2024-10-22,133.43,Anthropic
+6,DeepSeek-V3,DeepSeek,2024-12-26,132.3,DeepSeek
+7,Gemini 1.5 Pro (Sept 2024),Google DeepMind,2024-09-24,131.72,Google
+8,Phi-4,Microsoft Research,2024-12-12,130.48,Microsoft
+9,Grok-2 (Dec 2024),xAI,2024-12-12,130.47,xAI
+10,Claude 3.5 Sonnet,Anthropic,2024-06-20,130.0,Anthropic
