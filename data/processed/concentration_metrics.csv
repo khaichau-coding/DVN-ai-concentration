@@ -1,0 +1,13 @@
+year,sample,sample_models,organisations,top_organisation,top_share_pct,hhi_0_10000,effective_organisations
+2019,All notable model releases,68,48,Google,18.995098,854.959631,11.696459
+2020,All notable model releases,50,47,Google,39.0,1680.0,5.952381
+2021,All notable model releases,79,56,Google,23.628692,880.111805,11.362193
+2022,All notable model releases,91,74,Google,25.311355,989.134623,10.109847
+2023,All notable model releases,119,120,Google,18.627451,524.196756,19.076806
+2024,All notable model releases,98,53,OpenAI,11.22449,457.737517,21.846582
+2025,All notable model releases,107,43,OpenAI,19.626168,844.227055,11.845155
+2026,All notable model releases,89,34,OpenAI,21.348315,868.757552,11.510691
+2023,Annual ECI top 10,10,6,Anthropic,30.0,2200.0,4.545455
+2024,Annual ECI top 10,10,6,OpenAI,30.0,2000.0,5.0
+2025,Annual ECI top 10,10,3,OpenAI,60.0,4400.0,2.272727
+2026,Annual ECI top 10,10,3,Anthropic,50.0,4200.0,2.380952
