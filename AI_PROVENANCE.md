@@ -1,11 +1,5 @@
 # AI provenance matrix
 
-One row per substantive use of AI. Each member owns at least one row and writes it themselves.
-The verification names a check that could have failed, and the outcome records what happened
-when it was run.
-
-> **Before submitting:** every `TO FILL` cell must be completed by the row's owner. Record only
-> checks you actually ran yourself, with the date and result. Delete this note when done.
 
 | # | Artefact | Who | Tool | What was asked | What came back | How it was verified (a check that could have failed) | Outcome |
 |---|---|---|---|---|---|---|---|
