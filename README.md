@@ -5,7 +5,7 @@ Intelligence: Data Narrative Studio*.
 
 - **Live app:** https://dvn-ai-concentration.streamlit.app
 - **Repository:** <https://github.com/khaichau-coding/DVN-ai-concentration>
-- **Assessed version:** _add the release tag or commit hash here_
+
 
 ## Question
 
