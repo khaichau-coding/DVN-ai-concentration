@@ -3,7 +3,7 @@
 An interactive data narrative built with Streamlit for Assignment 3, *The Rise of Artificial
 Intelligence: Data Narrative Studio*.
 
-- **Live app:** _add the Streamlit Cloud URL here after deploying_
+- **Live app:** https://dvn-ai-concentration.streamlit.app
 - **Repository:** <https://github.com/khaichau-coding/DVN-ai-concentration>
 - **Assessed version:** _add the release tag or commit hash here_
 
