@@ -62,7 +62,15 @@ owned = pd.read_csv(PROCESSED / "chips_owned_by_quarter.csv")
 latest = owned[(owned["date"] == "2025-12-31") & (owned["company"] != "Other")]
 check("Top-4 share of AI chips, end 2025 (%)", round(latest["share_pct"].sum(), 2), round(recomputed, 2))
 
-# 5. Every processed table regenerates byte for byte from data/raw/
+# 5. Frontier gap page: latest gap between the top 3 and every other named company
+named_eci = eci.dropna(subset=["Organization"])
+is_top3 = named_eci["Organization"].str.contains("OpenAI|Anthropic|" + GOOGLE)
+gap = pd.read_csv(PROCESSED / "frontier_gap.csv")
+latest_gap = gap[gap["comparison"] == "Top 3 vs every other company"].iloc[-1]
+check("Latest top 3 gap (ECI points)", float(latest_gap["gap_eci"]),
+      round(named_eci.loc[is_top3, "eci"].max() - named_eci.loc[~is_top3, "eci"].max(), 2))
+
+# 6. Every processed table regenerates byte for byte from data/raw/
 sys.path.insert(0, str(ROOT))
 import data_prep  # noqa: E402  (only used to rebuild, never to compute the checks above)
 

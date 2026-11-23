@@ -1,0 +1,500 @@
+comparison,group,role,Model,Organization,date,eci,best_so_far,is_record
+Closed weights vs open weights,Open weights,chasing,LLaMA-13B,Meta AI,2023-02-24,100.32,100.32,True
+Closed weights vs open weights,Open weights,chasing,LLaMA-33B,Meta AI,2023-02-24,107.18,107.18,True
+Closed weights vs open weights,Open weights,chasing,LLaMA-65B,Meta AI,2023-02-24,109.97,109.97,True
+Closed weights vs open weights,Open weights,chasing,LLaMA-7B,Meta AI,2023-02-24,96.62,96.62,True
+Closed weights vs open weights,Closed weights,leading,GPT-4 (Mar 2023),OpenAI,2023-03-14,125.74,125.74,True
+Closed weights vs open weights,Open weights,chasing,Cerebras-GPT-13B,Cerebras Systems,2023-03-20,82.66,109.97,False
+Closed weights vs open weights,Open weights,chasing,Dolly 2.0-12b,Databricks,2023-04-11,89.2,109.97,False
+Closed weights vs open weights,Open weights,chasing,Falcon-7B,Technology Innovation Institute,2023-04-24,94.7,109.97,False
+Closed weights vs open weights,Open weights,chasing,MPT-7B,MosaicML,2023-05-05,94.19,109.97,False
+Closed weights vs open weights,Open weights,chasing,Falcon-40B,Technology Innovation Institute,2023-05-25,104.17,109.97,False
+Closed weights vs open weights,Open weights,chasing,Baichuan1-7B,Baichuan,2023-06-01,90.0,109.97,False
+Closed weights vs open weights,Closed weights,leading,GPT-3.5 Turbo (Jun 2023),OpenAI,2023-06-13,113.22,125.74,False
+Closed weights vs open weights,Closed weights,leading,GPT-4 (Jun 2023),OpenAI,2023-06-13,123.09,125.74,False
+Closed weights vs open weights,Open weights,chasing,MPT-30B,MosaicML,2023-06-22,100.33,109.97,False
+Closed weights vs open weights,Open weights,chasing,XGen-7B,Salesforce,2023-06-27,92.98,109.97,False
+Closed weights vs open weights,Closed weights,leading,Claude 2,Anthropic,2023-07-11,120.19,125.74,False
+Closed weights vs open weights,Open weights,chasing,Llama 2-13B,Meta AI,2023-07-18,105.58,109.97,False
+Closed weights vs open weights,Closed weights,leading,Llama 2-34B,Meta AI,2023-07-18,104.93,125.74,False
+Closed weights vs open weights,Open weights,chasing,Llama 2-70B,Meta AI,2023-07-18,113.67,113.67,True
+Closed weights vs open weights,Open weights,chasing,Llama 2-7B,Meta AI,2023-07-18,98.61,109.97,False
+Closed weights vs open weights,Open weights,chasing,Stable Beluga 2,Stability AI,2023-07-20,117.02,117.02,True
+Closed weights vs open weights,Closed weights,leading,Claude Instant,Anthropic,2023-08-09,120.21,125.74,False
+Closed weights vs open weights,Open weights,chasing,Baichuan2-13B,Baichuan,2023-09-06,102.9,117.02,False
+Closed weights vs open weights,Open weights,chasing,Falcon-180B,Technology Innovation Institute,2023-09-06,111.96,117.02,False
+Closed weights vs open weights,Open weights,chasing,Phi-1.5,Microsoft,2023-09-11,91.06,117.02,False
+Closed weights vs open weights,Open weights,chasing,Baichuan 2-7B,Baichuan,2023-09-20,95.94,117.02,False
+Closed weights vs open weights,Open weights,chasing,Qwen-14B,Alibaba,2023-09-24,112.88,117.02,False
+Closed weights vs open weights,Open weights,chasing,Mistral 7B v0.1,Mistral AI,2023-09-27,112.05,117.02,False
+Closed weights vs open weights,Open weights,chasing,Qwen-7B,Alibaba,2023-09-28,106.59,117.02,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek Coder 1.3B,"DeepSeek,Peking University",2023-11-02,62.59,117.02,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek Coder 33B,"DeepSeek,Peking University",2023-11-02,95.94,117.02,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek Coder 6.7B,"DeepSeek,Peking University",2023-11-02,89.13,117.02,False
+Closed weights vs open weights,Open weights,chasing,Yi-34B,01.AI,2023-11-02,117.33,117.33,True
+Closed weights vs open weights,Closed weights,leading,GPT-3.5 Turbo (Nov 2023),OpenAI,2023-11-06,118.53,125.74,False
+Closed weights vs open weights,Closed weights,leading,Claude 2.1,Anthropic,2023-11-21,119.32,125.74,False
+Closed weights vs open weights,Open weights,chasing,Yi 6B,01.AI,2023-11-22,104.5,117.33,False
+Closed weights vs open weights,Open weights,chasing,Mixtral 8x7B,Mistral AI,2023-12-11,118.44,118.44,True
+Closed weights vs open weights,Open weights,chasing,Phi-2,Microsoft,2023-12-12,107.73,118.44,False
+Closed weights vs open weights,Closed weights,leading,Gemini 1.0 Pro,Google DeepMind,2023-12-13,117.14,125.74,False
+Closed weights vs open weights,Closed weights,leading,GPT-3.5 Turbo (Jan 2024),OpenAI,2024-01-25,115.68,125.74,False
+Closed weights vs open weights,Closed weights,leading,GPT-4 Turbo (Nov 2023),OpenAI,2024-01-25,126.43,126.43,True
+Closed weights vs open weights,Open weights,chasing,StarCoder 2 15B,"Hugging Face,ServiceNow,Nvidia,BigCode",2024-02-20,104.74,118.44,False
+Closed weights vs open weights,Open weights,chasing,StarCoder 2 7B,"Hugging Face,ServiceNow,Nvidia,BigCode",2024-02-20,93.14,118.44,False
+Closed weights vs open weights,Open weights,chasing,Gemma 2B,Google DeepMind,2024-02-21,93.79,118.44,False
+Closed weights vs open weights,Open weights,chasing,Gemma 7B,Google DeepMind,2024-02-21,111.82,118.44,False
+Closed weights vs open weights,Open weights,chasing,StarCoder 2 3B,"Hugging Face,ServiceNow,Nvidia,BigCode",2024-02-22,88.26,118.44,False
+Closed weights vs open weights,Closed weights,leading,Mistral Large,Mistral AI,2024-02-26,122.12,126.43,False
+Closed weights vs open weights,Closed weights,leading,Nemotron-4 15B,Nvidia,2024-02-26,107.49,126.43,False
+Closed weights vs open weights,Closed weights,leading,Claude 3 Opus,Anthropic,2024-02-29,126.9,126.9,True
+Closed weights vs open weights,Closed weights,leading,Claude 3 Sonnet,Anthropic,2024-02-29,120.84,126.43,False
+Closed weights vs open weights,Closed weights,leading,Claude 3 Haiku,Anthropic,2024-03-07,118.85,126.9,False
+Closed weights vs open weights,Closed weights,leading,GPT-4 Turbo (Apr 2024),OpenAI,2024-04-09,127.27,127.27,True
+Closed weights vs open weights,Open weights,chasing,Mixtral 8x22B,Mistral AI,2024-04-17,122.04,122.04,True
+Closed weights vs open weights,Open weights,chasing,Llama 3-70B,Meta AI,2024-04-18,123.01,123.01,True
+Closed weights vs open weights,Open weights,chasing,Llama 3-8B,Meta AI,2024-04-18,116.39,122.04,False
+Closed weights vs open weights,Open weights,chasing,phi-3-medium 14B,Microsoft,2024-04-23,121.19,123.01,False
+Closed weights vs open weights,Open weights,chasing,phi-3-mini 3.8B,Microsoft,2024-04-23,117.28,123.01,False
+Closed weights vs open weights,Open weights,chasing,phi-3-small 7.4B,Microsoft,2024-04-23,121.82,123.01,False
+Closed weights vs open weights,Open weights,chasing,"DeepSeek-V2 (MoE-236B, May 2024)",DeepSeek,2024-05-07,124.8,124.8,True
+Closed weights vs open weights,Open weights,chasing,Falcon 2 11B,Technology Innovation Institute,2024-05-09,109.36,124.8,False
+Closed weights vs open weights,Closed weights,leading,GPT-4o (May 2024),OpenAI,2024-05-13,128.99,128.99,True
+Closed weights vs open weights,Closed weights,leading,Gemini 1.5 Pro (May 2024),Google DeepMind,2024-05-14,126.94,128.99,False
+Closed weights vs open weights,Closed weights,leading,Gemini 1.5 Flash (May 2024),Google DeepMind,2024-05-23,122.68,128.99,False
+Closed weights vs open weights,Open weights,chasing,Mistral 7B v0.3,Mistral AI,2024-05-27,108.88,124.8,False
+Closed weights vs open weights,Open weights,chasing,Qwen2-72B,Alibaba,2024-06-07,125.28,125.28,True
+Closed weights vs open weights,Closed weights,leading,Claude 3.5 Sonnet,Anthropic,2024-06-20,130.0,130.0,True
+Closed weights vs open weights,Open weights,chasing,Gemma 2 27B,Google DeepMind,2024-06-24,122.12,125.28,False
+Closed weights vs open weights,Open weights,chasing,Gemma 2 9B,Google DeepMind,2024-06-24,119.81,125.28,False
+Closed weights vs open weights,Closed weights,leading,GPT-4o mini,OpenAI,2024-07-18,126.46,130.0,False
+Closed weights vs open weights,Open weights,chasing,Mistral NeMo,Mistral AI,2024-07-18,118.65,125.28,False
+Closed weights vs open weights,Open weights,chasing,Llama 3.1-405B,Meta AI,2024-07-23,128.77,128.77,True
+Closed weights vs open weights,Open weights,chasing,Llama 3.1-70B,Meta AI,2024-07-23,125.93,125.93,True
+Closed weights vs open weights,Open weights,chasing,Llama 3.1-8B,Meta AI,2024-07-23,116.47,125.28,False
+Closed weights vs open weights,Open weights,chasing,Mistral Large 2 (Jul 2024),Mistral AI,2024-07-24,127.57,128.77,False
+Closed weights vs open weights,Closed weights,leading,GPT-4o (Aug 2024),OpenAI,2024-08-06,128.83,130.0,False
+Closed weights vs open weights,Open weights,chasing,Command R+,"Cohere,Cohere Labs (formerly Cohere for AI)",2024-08-30,119.2,128.77,False
+Closed weights vs open weights,Closed weights,leading,o1-mini,OpenAI,2024-09-12,135.7,135.7,True
+Closed weights vs open weights,Closed weights,leading,o1-preview,OpenAI,2024-09-12,134.57,134.57,True
+Closed weights vs open weights,Open weights,chasing,Qwen2.5-Coder (1.5B),Alibaba,2024-09-18,102.71,128.77,False
+Closed weights vs open weights,Open weights,chasing,Qwen2.5-Coder (7B),Alibaba,2024-09-18,113.01,128.77,False
+Closed weights vs open weights,Open weights,chasing,Qwen2.5-Coder-32B,Alibaba,2024-09-18,119.45,128.77,False
+Closed weights vs open weights,Open weights,chasing,Qwen2.5-72B,Alibaba,2024-09-19,128.97,128.97,True
+Closed weights vs open weights,Open weights,chasing,Qwen2.5-7B,Alibaba,2024-09-19,118.54,128.77,False
+Closed weights vs open weights,Closed weights,leading,Gemini 1.5 Flash (Sep 2024),Google DeepMind,2024-09-24,129.33,135.7,False
+Closed weights vs open weights,Closed weights,leading,Gemini 1.5 Pro (Sept 2024),Google DeepMind,2024-09-24,131.72,135.7,False
+Closed weights vs open weights,Open weights,chasing,Llama 3.2 90B,Meta AI,2024-09-24,125.52,128.97,False
+Closed weights vs open weights,Closed weights,leading,Ministral 3B,Mistral AI,2024-10-16,118.04,135.7,False
+Closed weights vs open weights,Closed weights,leading,Claude 3.5 Haiku,Anthropic,2024-10-22,127.07,135.7,False
+Closed weights vs open weights,Closed weights,leading,Claude 3.5 Sonnet (October 2024),Anthropic,2024-10-22,133.43,135.7,False
+Closed weights vs open weights,Open weights,chasing,Mistral Large 2 (Nov 2024),Mistral AI,2024-11-18,128.57,128.97,False
+Closed weights vs open weights,Closed weights,leading,GPT-4o (Nov 2024),OpenAI,2024-11-20,128.69,135.7,False
+Closed weights vs open weights,Open weights,chasing,Llama 3.3 70B,Meta AI,2024-12-06,127.33,128.97,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.0 Flash (Dec 2024),"Google DeepMind,Google",2024-12-11,134.58,135.7,False
+Closed weights vs open weights,Closed weights,leading,Grok-2 (Dec 2024),xAI,2024-12-12,130.47,135.7,False
+Closed weights vs open weights,Open weights,chasing,Phi-4,Microsoft Research,2024-12-12,130.48,130.48,True
+Closed weights vs open weights,Closed weights,leading,o1,OpenAI,2024-12-17,141.72,141.72,True
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V3,DeepSeek,2024-12-26,132.3,132.3,True
+Closed weights vs open weights,Open weights,chasing,DeepSeek-R1,DeepSeek,2025-01-20,138.82,138.82,True
+Closed weights vs open weights,Closed weights,leading,Gemini 2.0 Flash Thinking (Jan 2025),"Google DeepMind,Google",2025-01-21,135.24,141.72,False
+Closed weights vs open weights,Closed weights,leading,Qwen2.5-Max,Alibaba,2025-01-25,132.48,141.72,False
+Closed weights vs open weights,Closed weights,leading,o3-mini,OpenAI,2025-01-31,140.2,141.72,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.0 Flash (Feb 2025),"Google DeepMind,Google",2025-02-05,134.62,141.72,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.0 Pro,Google DeepMind,2025-02-05,134.95,141.72,False
+Closed weights vs open weights,Closed weights,leading,Claude 3.7 Sonnet,Anthropic,2025-02-24,141.03,141.72,False
+Closed weights vs open weights,Closed weights,leading,GPT-4.5,OpenAI,2025-02-27,136.65,141.72,False
+Closed weights vs open weights,Open weights,chasing,QwQ-32B,Alibaba,2025-03-05,137.5,138.82,False
+Closed weights vs open weights,Open weights,chasing,Gemma 3 12B,Google DeepMind,2025-03-12,123.54,138.82,False
+Closed weights vs open weights,Open weights,chasing,Gemma 3 27B,Google DeepMind,2025-03-12,129.97,138.82,False
+Closed weights vs open weights,Open weights,chasing,Gemma 3 4B,Google DeepMind,2025-03-12,115.88,138.82,False
+Closed weights vs open weights,Open weights,chasing,Mistral Small 3.1,Mistral AI,2025-03-17,127.53,138.82,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V3 (Mar 2025),DeepSeek,2025-03-24,135.85,138.82,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Pro (Mar 2025),Google DeepMind,2025-03-31,143.96,143.96,True
+Closed weights vs open weights,Open weights,chasing,Llama 4 Scout,Meta AI,2025-04-05,129.63,138.82,False
+Closed weights vs open weights,Open weights,chasing,Llama 4 Maverick,Meta AI,2025-04-06,132.22,138.82,False
+Closed weights vs open weights,Closed weights,leading,Grok 3,xAI,2025-04-09,138.21,143.96,False
+Closed weights vs open weights,Closed weights,leading,GPT-4.1,OpenAI,2025-04-14,136.65,143.96,False
+Closed weights vs open weights,Closed weights,leading,GPT-4.1 mini,OpenAI,2025-04-14,134.89,143.96,False
+Closed weights vs open weights,Closed weights,leading,GPT-4.1 nano,OpenAI,2025-04-14,129.54,143.96,False
+Closed weights vs open weights,Closed weights,leading,o3,OpenAI,2025-04-16,146.73,146.73,True
+Closed weights vs open weights,Closed weights,leading,o4-mini,OpenAI,2025-04-16,145.46,145.46,True
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Flash (Apr 2025),Google DeepMind,2025-04-17,139.84,146.73,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-235B-A22B,Alibaba,2025-04-28,139.15,139.15,True
+Closed weights vs open weights,Open weights,chasing,Qwen3-8B,Alibaba,2025-04-28,136.06,138.82,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-14B,Alibaba,2025-04-29,138.15,139.15,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-30B-A3B,Alibaba,2025-04-29,136.11,139.15,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-32B,Alibaba,2025-04-29,138.42,139.15,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Pro (May 2025),Google DeepMind,2025-05-06,142.15,146.73,False
+Closed weights vs open weights,Closed weights,leading,Mistral Medium 3,Mistral AI,2025-05-07,134.02,146.73,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Flash (May 2025),Google DeepMind,2025-05-20,141.43,146.73,False
+Closed weights vs open weights,Closed weights,leading,Claude Opus 4,Anthropic,2025-05-22,142.52,146.73,False
+Closed weights vs open weights,Closed weights,leading,Claude Sonnet 4,Anthropic,2025-05-22,141.56,146.73,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek-R1 (May 2025),DeepSeek,2025-05-28,141.13,141.13,True
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Pro (Jun 2025),Google DeepMind,2025-06-05,145.13,146.73,False
+Closed weights vs open weights,Open weights,chasing,Magistral Small 1.0,Mistral AI,2025-06-10,133.07,141.13,False
+Closed weights vs open weights,Closed weights,leading,o3-pro,OpenAI,2025-06-10,147.33,147.33,True
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Flash (Jun 2025),Google DeepMind,2025-06-17,140.59,147.33,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Flash-Lite (Jun 2025),Google DeepMind,2025-06-17,133.82,147.33,False
+Closed weights vs open weights,Closed weights,leading,Grok-3 mini,xAI,2025-06-24,140.2,147.33,False
+Closed weights vs open weights,Closed weights,leading,Grok 4,xAI,2025-07-09,146.24,147.33,False
+Closed weights vs open weights,Open weights,chasing,Kimi K2 (Jul 2025),Moonshot,2025-07-12,139.97,141.13,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-235B-A22B-Instruct (Jul 2025),Alibaba,2025-07-25,138.78,141.13,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,2025-07-25,143.76,143.76,True
+Closed weights vs open weights,Open weights,chasing,Qwen3-30B-A3B-Instruct (Jul 2025),Alibaba,2025-07-29,137.27,143.76,False
+Closed weights vs open weights,Open weights,chasing,Qwen3-30B-A3B-Thinking (Jul 2025),Alibaba,2025-07-30,139.55,143.76,False
+Closed weights vs open weights,Closed weights,leading,Claude Opus 4.1,Anthropic,2025-08-05,144.07,147.33,False
+Closed weights vs open weights,Open weights,chasing,gpt-oss-120b,OpenAI,2025-08-05,139.79,143.76,False
+Closed weights vs open weights,Open weights,chasing,gpt-oss-20b,OpenAI,2025-08-05,137.7,143.76,False
+Closed weights vs open weights,Closed weights,leading,GPT-5,OpenAI,2025-08-07,150.0,150.0,True
+Closed weights vs open weights,Closed weights,leading,GPT-5 mini,OpenAI,2025-08-07,145.34,147.33,False
+Closed weights vs open weights,Closed weights,leading,GPT-5 nano,OpenAI,2025-08-07,139.21,147.33,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V3.1,DeepSeek,2025-08-21,139.79,143.76,False
+Closed weights vs open weights,Closed weights,leading,Grok 4 Fast,xAI,2025-09-19,144.09,150.0,False
+Closed weights vs open weights,Closed weights,leading,Qwen3-Max,Alibaba,2025-09-24,142.33,150.0,False
+Closed weights vs open weights,Closed weights,leading,Gemini 2.5 Flash (Sep 2025),Google DeepMind,2025-09-25,142.9,150.0,False
+Closed weights vs open weights,Closed weights,leading,Claude Sonnet 4.5,Anthropic,2025-09-29,146.74,150.0,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V3.2-Exp,DeepSeek,2025-09-29,144.91,144.91,True
+Closed weights vs open weights,Closed weights,leading,GPT-5 Pro,OpenAI,2025-10-07,150.59,150.59,True
+Closed weights vs open weights,Closed weights,leading,Claude Haiku 4.5,Anthropic,2025-10-15,142.15,150.59,False
+Closed weights vs open weights,Open weights,chasing,Kimi K2 Thinking,Moonshot,2025-11-06,145.82,145.82,True
+Closed weights vs open weights,Closed weights,leading,GPT-5.1,OpenAI,2025-11-13,149.76,150.59,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3 Pro,Google DeepMind,2025-11-18,153.07,153.07,True
+Closed weights vs open weights,Closed weights,leading,Claude Opus 4.5,Anthropic,2025-11-24,150.11,153.07,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V3.2,DeepSeek,2025-12-01,146.09,146.09,True
+Closed weights vs open weights,Closed weights,leading,GPT-5.2,OpenAI,2025-12-11,153.66,153.66,True
+Closed weights vs open weights,Closed weights,leading,GPT-5.2 Pro,OpenAI,2025-12-11,156.33,156.33,True
+Closed weights vs open weights,Closed weights,leading,Gemini 3 Flash,Google DeepMind,2025-12-17,151.88,156.33,False
+Closed weights vs open weights,Open weights,chasing,GLM-4.7,Z.ai (Zhipu AI),2025-12-22,143.59,146.09,False
+Closed weights vs open weights,Open weights,chasing,Kimi K2.5,Moonshot,2026-01-27,148.07,148.07,True
+Closed weights vs open weights,Closed weights,leading,Claude Opus 4.6,Anthropic,2026-02-05,155.66,156.33,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.3 Codex,OpenAI,2026-02-05,157.09,157.09,True
+Closed weights vs open weights,Open weights,chasing,GLM-5,Z.ai (Zhipu AI),2026-02-11,145.8,148.07,False
+Closed weights vs open weights,Open weights,chasing,MiniMax-M2.5,MiniMax,2026-02-12,146.59,148.07,False
+Closed weights vs open weights,Open weights,chasing,Qwen3.5 397B-A17B,Alibaba,2026-02-13,146.8,148.07,False
+Closed weights vs open weights,Closed weights,leading,Claude Sonnet 4.6,Anthropic,2026-02-17,152.79,157.09,False
+Closed weights vs open weights,Closed weights,leading,Grok 4.20,xAI,2026-02-17,152.11,157.09,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3.1 Pro,Google DeepMind,2026-02-19,155.34,157.09,False
+Closed weights vs open weights,Open weights,chasing,Qwen3.5-35B-A3B,Alibaba,2026-02-24,142.49,148.07,False
+Closed weights vs open weights,Open weights,chasing,Qwen3.5-9B,Alibaba,2026-02-24,139.32,148.07,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3.1 Flash-Lite,Google,2026-03-03,144.26,157.09,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.4,OpenAI,2026-03-05,157.31,157.31,True
+Closed weights vs open weights,Closed weights,leading,GPT-5.4 Pro,OpenAI,2026-03-05,159.57,159.57,True
+Closed weights vs open weights,Closed weights,leading,GPT-5.4 Mini,OpenAI,2026-03-17,148.7,159.57,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.4 Nano,OpenAI,2026-03-17,146.03,159.57,False
+Closed weights vs open weights,Open weights,chasing,MiniMax-M2.7,MiniMax,2026-03-18,145.78,148.07,False
+Closed weights vs open weights,Closed weights,leading,Qwen 3.6 Plus,Alibaba,2026-03-31,147.3,159.57,False
+Closed weights vs open weights,Open weights,chasing,Gemma 4 26B A4B,Google DeepMind,2026-04-02,141.88,148.07,False
+Closed weights vs open weights,Open weights,chasing,Gemma 4 31B IT,Google DeepMind,2026-04-02,142.99,148.07,False
+Closed weights vs open weights,Open weights,chasing,GLM-5.1,Z.ai (Zhipu AI),2026-04-07,149.82,149.82,True
+Closed weights vs open weights,Closed weights,leading,Muse Spark,Meta AI,2026-04-08,152.03,159.57,False
+Closed weights vs open weights,Open weights,chasing,Qwen 3.6 35B-A3B,Alibaba,2026-04-14,143.73,149.82,False
+Closed weights vs open weights,Closed weights,leading,Claude Opus 4.7,Anthropic,2026-04-16,156.79,159.57,False
+Closed weights vs open weights,Closed weights,leading,Grok 4.3 Beta,xAI,2026-04-17,148.81,159.57,False
+Closed weights vs open weights,Open weights,chasing,Kimi K2.6,Moonshot,2026-04-20,150.94,150.94,True
+Closed weights vs open weights,Open weights,chasing,Qwen3.6 27B,Alibaba,2026-04-22,146.23,150.94,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.5,OpenAI,2026-04-23,159.68,159.68,True
+Closed weights vs open weights,Closed weights,leading,GPT-5.5 Pro,OpenAI,2026-04-23,162.91,162.91,True
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V4-Flash,DeepSeek,2026-04-24,146.11,150.94,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek-V4-Pro,DeepSeek,2026-04-24,149.13,150.94,False
+Closed weights vs open weights,Open weights,chasing,Mistral Medium 3.5,Mistral AI,2026-04-28,141.36,150.94,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.5 Instant,OpenAI,2026-05-05,142.43,162.91,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3.5 Flash,Google DeepMind,2026-05-19,154.88,162.91,False
+Closed weights vs open weights,Closed weights,leading,Qwen3.7-Max,Alibaba,2026-05-19,154.04,162.91,False
+Closed weights vs open weights,Closed weights,leading,Claude Opus 4.8,Anthropic,2026-05-28,159.01,162.91,False
+Closed weights vs open weights,Open weights,chasing,MiniMax-M3,MiniMax,2026-06-01,146.87,150.94,False
+Closed weights vs open weights,Closed weights,leading,Qwen3.7-Plus,Alibaba,2026-06-02,147.0,162.91,False
+Closed weights vs open weights,Open weights,chasing,Nemotron 3 Ultra,Nvidia,2026-06-04,145.97,150.94,False
+Closed weights vs open weights,Closed weights,leading,Claude Fable 5,Anthropic,2026-06-09,163.42,163.42,True
+Closed weights vs open weights,Open weights,chasing,Kimi K2.7 Code,Moonshot,2026-06-12,150.11,150.94,False
+Closed weights vs open weights,Open weights,chasing,GLM-5.2,Z.ai (Zhipu AI),2026-06-16,151.94,151.94,True
+Closed weights vs open weights,Closed weights,leading,Claude Sonnet 5,Anthropic,2026-06-30,156.88,163.42,False
+Closed weights vs open weights,Closed weights,leading,Grok 4.5,xAI,2026-07-08,154.07,163.42,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.6 Luna,OpenAI,2026-07-09,156.5,163.42,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.6 Sol,OpenAI,2026-07-09,162.79,163.42,False
+Closed weights vs open weights,Closed weights,leading,GPT-5.6 Terra,OpenAI,2026-07-09,160.09,163.42,False
+Closed weights vs open weights,Closed weights,leading,Muse Spark 1.1,Meta AI,2026-07-09,154.05,163.42,False
+Closed weights vs open weights,Open weights,chasing,Inkling,Thinking Machines,2026-07-15,148.41,151.94,False
+Closed weights vs open weights,Open weights,chasing,Inkling-Small,Thinking Machines,2026-07-15,150.32,151.94,False
+Closed weights vs open weights,Open weights,chasing,Kimi K3,Moonshot,2026-07-16,157.86,157.86,True
+Closed weights vs open weights,Closed weights,leading,Gemini 3.5 Flash-Lite,Google DeepMind,2026-07-21,144.91,163.42,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3.6 Flash,Google DeepMind,2026-07-21,154.53,163.42,False
+Closed weights vs open weights,Closed weights,leading,Claude Opus 5,Anthropic,2026-07-24,163.94,163.94,True
+Closed weights vs open weights,Closed weights,leading,Qwen3.7 Flash,Alibaba,2026-07-27,144.05,163.94,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek V4 Flash 0731,DeepSeek,2026-07-31,154.76,157.86,False
+Closed weights vs open weights,Closed weights,leading,Qwen 3.8 Max,Alibaba,2026-08-02,157.4,163.94,False
+Closed weights vs open weights,Closed weights,leading,Muse Spark 1.2,Meta AI,2026-08-05,155.05,163.94,False
+Closed weights vs open weights,Closed weights,leading,Grok 4.6,xAI,2026-08-12,156.57,163.94,False
+Closed weights vs open weights,Open weights,chasing,DeepSeek V4 Pro 0813,DeepSeek,2026-08-13,155.64,157.86,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3.7 Flash,Google DeepMind,2026-08-13,157.97,163.94,False
+Closed weights vs open weights,Open weights,chasing,GLM-5.3,Z.ai (Zhipu AI),2026-08-14,155.99,157.86,False
+Closed weights vs open weights,Open weights,chasing,Qwen 3.8 27B,Alibaba,2026-08-14,151.69,157.86,False
+Closed weights vs open weights,Open weights,chasing,GLM-5.3-Flash,Z.ai (Zhipu AI),2026-08-20,153.08,157.86,False
+Closed weights vs open weights,Closed weights,leading,Claude Fable 5.1,Anthropic,2026-09-01,166.49,166.49,True
+Closed weights vs open weights,Closed weights,leading,Qwen3.8 Max (0902),Alibaba,2026-09-01,155.08,163.94,False
+Closed weights vs open weights,Closed weights,leading,Gemini 3.8 Flash,Google DeepMind,2026-09-02,157.44,166.49,False
+Closed weights vs open weights,Closed weights,leading,Muse Spark 1.3,Meta AI,2026-09-02,157.21,166.49,False
+Closed weights vs open weights,Closed weights,leading,GPT-6 Astra,OpenAI,2026-09-03,168.81,168.81,True
+Closed weights vs open weights,Open weights,chasing,DeepSeek V4.1 Flash,DeepSeek,2026-09-09,155.93,157.86,False
+Closed weights vs open weights,Closed weights,leading,Grok 4.7,xAI,2026-09-21,154.37,168.81,False
+Closed weights vs open weights,Closed weights,leading,Claude Opus 5.5,Anthropic,2026-09-22,168.83,168.83,True
+Closed weights vs open weights,Closed weights,leading,GPT-6 Luna,OpenAI,2026-09-22,156.75,168.81,False
+Closed weights vs open weights,Closed weights,leading,GPT-6 Sol,OpenAI,2026-09-22,163.73,168.81,False
+Closed weights vs open weights,Closed weights,leading,Claude Sonnet 5.5,Anthropic,2026-09-28,166.18,168.83,False
+Closed weights vs open weights,Closed weights,leading,GPT-6.1 Sol,OpenAI,2026-09-29,168.37,168.83,False
+Closed weights vs open weights,Closed weights,leading,Claude Haiku 5.5,Anthropic,2026-10-07,159.32,168.83,False
+Closed weights vs open weights,Closed weights,leading,Muse Wonder,Meta AI,2026-10-12,161.85,168.83,False
+Closed weights vs open weights,Open weights,chasing,Muse Spark Open,Meta AI,2026-10-15,155.11,157.86,False
+Top 3 vs every other company,Every other company,chasing,LLaMA-13B,Meta AI,2023-02-24,100.32,100.32,True
+Top 3 vs every other company,Every other company,chasing,LLaMA-33B,Meta AI,2023-02-24,107.18,107.18,True
+Top 3 vs every other company,Every other company,chasing,LLaMA-65B,Meta AI,2023-02-24,109.97,109.97,True
+Top 3 vs every other company,Every other company,chasing,LLaMA-7B,Meta AI,2023-02-24,96.62,96.62,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4 (Mar 2023),OpenAI,2023-03-14,125.74,125.74,True
+Top 3 vs every other company,Every other company,chasing,Cerebras-GPT-13B,Cerebras Systems,2023-03-20,82.66,109.97,False
+Top 3 vs every other company,Every other company,chasing,Dolly 2.0-12b,Databricks,2023-04-11,89.2,109.97,False
+Top 3 vs every other company,Every other company,chasing,Falcon-7B,Technology Innovation Institute,2023-04-24,94.7,109.97,False
+Top 3 vs every other company,Every other company,chasing,MPT-7B,MosaicML,2023-05-05,94.19,109.97,False
+Top 3 vs every other company,Every other company,chasing,Falcon-40B,Technology Innovation Institute,2023-05-25,104.17,109.97,False
+Top 3 vs every other company,Every other company,chasing,Baichuan1-7B,Baichuan,2023-06-01,90.0,109.97,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-3.5 Turbo (Jun 2023),OpenAI,2023-06-13,113.22,125.74,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4 (Jun 2023),OpenAI,2023-06-13,123.09,125.74,False
+Top 3 vs every other company,Every other company,chasing,MPT-30B,MosaicML,2023-06-22,100.33,109.97,False
+Top 3 vs every other company,Every other company,chasing,XGen-7B,Salesforce,2023-06-27,92.98,109.97,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 2,Anthropic,2023-07-11,120.19,125.74,False
+Top 3 vs every other company,Every other company,chasing,Llama 2-13B,Meta AI,2023-07-18,105.58,109.97,False
+Top 3 vs every other company,Every other company,chasing,Llama 2-34B,Meta AI,2023-07-18,104.93,109.97,False
+Top 3 vs every other company,Every other company,chasing,Llama 2-70B,Meta AI,2023-07-18,113.67,113.67,True
+Top 3 vs every other company,Every other company,chasing,Llama 2-7B,Meta AI,2023-07-18,98.61,109.97,False
+Top 3 vs every other company,Every other company,chasing,Stable Beluga 2,Stability AI,2023-07-20,117.02,117.02,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Instant,Anthropic,2023-08-09,120.21,125.74,False
+Top 3 vs every other company,Every other company,chasing,Baichuan2-13B,Baichuan,2023-09-06,102.9,117.02,False
+Top 3 vs every other company,Every other company,chasing,Falcon-180B,Technology Innovation Institute,2023-09-06,111.96,117.02,False
+Top 3 vs every other company,Every other company,chasing,Phi-1.5,Microsoft,2023-09-11,91.06,117.02,False
+Top 3 vs every other company,Every other company,chasing,Baichuan 2-7B,Baichuan,2023-09-20,95.94,117.02,False
+Top 3 vs every other company,Every other company,chasing,Qwen-14B,Alibaba,2023-09-24,112.88,117.02,False
+Top 3 vs every other company,Every other company,chasing,Mistral 7B v0.1,Mistral AI,2023-09-27,112.05,117.02,False
+Top 3 vs every other company,Every other company,chasing,Qwen-7B,Alibaba,2023-09-28,106.59,117.02,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek Coder 1.3B,"DeepSeek,Peking University",2023-11-02,62.59,117.02,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek Coder 33B,"DeepSeek,Peking University",2023-11-02,95.94,117.02,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek Coder 6.7B,"DeepSeek,Peking University",2023-11-02,89.13,117.02,False
+Top 3 vs every other company,Every other company,chasing,Yi-34B,01.AI,2023-11-02,117.33,117.33,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-3.5 Turbo (Nov 2023),OpenAI,2023-11-06,118.53,125.74,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 2.1,Anthropic,2023-11-21,119.32,125.74,False
+Top 3 vs every other company,Every other company,chasing,Yi 6B,01.AI,2023-11-22,104.5,117.33,False
+Top 3 vs every other company,Every other company,chasing,Mixtral 8x7B,Mistral AI,2023-12-11,118.44,118.44,True
+Top 3 vs every other company,Every other company,chasing,Phi-2,Microsoft,2023-12-12,107.73,118.44,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 1.0 Pro,Google DeepMind,2023-12-13,117.14,125.74,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-3.5 Turbo (Jan 2024),OpenAI,2024-01-25,115.68,125.74,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4 Turbo (Nov 2023),OpenAI,2024-01-25,126.43,126.43,True
+Top 3 vs every other company,Every other company,chasing,StarCoder 2 15B,"Hugging Face,ServiceNow,Nvidia,BigCode",2024-02-20,104.74,118.44,False
+Top 3 vs every other company,Every other company,chasing,StarCoder 2 7B,"Hugging Face,ServiceNow,Nvidia,BigCode",2024-02-20,93.14,118.44,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 2B,Google DeepMind,2024-02-21,93.79,126.43,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 7B,Google DeepMind,2024-02-21,111.82,126.43,False
+Top 3 vs every other company,Every other company,chasing,StarCoder 2 3B,"Hugging Face,ServiceNow,Nvidia,BigCode",2024-02-22,88.26,118.44,False
+Top 3 vs every other company,Every other company,chasing,Mistral Large,Mistral AI,2024-02-26,122.12,122.12,True
+Top 3 vs every other company,Every other company,chasing,Nemotron-4 15B,Nvidia,2024-02-26,107.49,118.44,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3 Opus,Anthropic,2024-02-29,126.9,126.9,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3 Sonnet,Anthropic,2024-02-29,120.84,126.43,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3 Haiku,Anthropic,2024-03-07,118.85,126.9,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4 Turbo (Apr 2024),OpenAI,2024-04-09,127.27,127.27,True
+Top 3 vs every other company,Every other company,chasing,Mixtral 8x22B,Mistral AI,2024-04-17,122.04,122.12,False
+Top 3 vs every other company,Every other company,chasing,Llama 3-70B,Meta AI,2024-04-18,123.01,123.01,True
+Top 3 vs every other company,Every other company,chasing,Llama 3-8B,Meta AI,2024-04-18,116.39,122.12,False
+Top 3 vs every other company,Every other company,chasing,phi-3-medium 14B,Microsoft,2024-04-23,121.19,123.01,False
+Top 3 vs every other company,Every other company,chasing,phi-3-mini 3.8B,Microsoft,2024-04-23,117.28,123.01,False
+Top 3 vs every other company,Every other company,chasing,phi-3-small 7.4B,Microsoft,2024-04-23,121.82,123.01,False
+Top 3 vs every other company,Every other company,chasing,"DeepSeek-V2 (MoE-236B, May 2024)",DeepSeek,2024-05-07,124.8,124.8,True
+Top 3 vs every other company,Every other company,chasing,Falcon 2 11B,Technology Innovation Institute,2024-05-09,109.36,124.8,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4o (May 2024),OpenAI,2024-05-13,128.99,128.99,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 1.5 Pro (May 2024),Google DeepMind,2024-05-14,126.94,128.99,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 1.5 Flash (May 2024),Google DeepMind,2024-05-23,122.68,128.99,False
+Top 3 vs every other company,Every other company,chasing,Mistral 7B v0.3,Mistral AI,2024-05-27,108.88,124.8,False
+Top 3 vs every other company,Every other company,chasing,Qwen2-72B,Alibaba,2024-06-07,125.28,125.28,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3.5 Sonnet,Anthropic,2024-06-20,130.0,130.0,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 2 27B,Google DeepMind,2024-06-24,122.12,130.0,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 2 9B,Google DeepMind,2024-06-24,119.81,130.0,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4o mini,OpenAI,2024-07-18,126.46,130.0,False
+Top 3 vs every other company,Every other company,chasing,Mistral NeMo,Mistral AI,2024-07-18,118.65,125.28,False
+Top 3 vs every other company,Every other company,chasing,Llama 3.1-405B,Meta AI,2024-07-23,128.77,128.77,True
+Top 3 vs every other company,Every other company,chasing,Llama 3.1-70B,Meta AI,2024-07-23,125.93,125.93,True
+Top 3 vs every other company,Every other company,chasing,Llama 3.1-8B,Meta AI,2024-07-23,116.47,125.28,False
+Top 3 vs every other company,Every other company,chasing,Mistral Large 2 (Jul 2024),Mistral AI,2024-07-24,127.57,128.77,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4o (Aug 2024),OpenAI,2024-08-06,128.83,130.0,False
+Top 3 vs every other company,Every other company,chasing,Command R+,"Cohere,Cohere Labs (formerly Cohere for AI)",2024-08-30,119.2,128.77,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o1-mini,OpenAI,2024-09-12,135.7,135.7,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o1-preview,OpenAI,2024-09-12,134.57,134.57,True
+Top 3 vs every other company,Every other company,chasing,Qwen2.5-Coder (1.5B),Alibaba,2024-09-18,102.71,128.77,False
+Top 3 vs every other company,Every other company,chasing,Qwen2.5-Coder (7B),Alibaba,2024-09-18,113.01,128.77,False
+Top 3 vs every other company,Every other company,chasing,Qwen2.5-Coder-32B,Alibaba,2024-09-18,119.45,128.77,False
+Top 3 vs every other company,Every other company,chasing,Qwen2.5-72B,Alibaba,2024-09-19,128.97,128.97,True
+Top 3 vs every other company,Every other company,chasing,Qwen2.5-7B,Alibaba,2024-09-19,118.54,128.77,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 1.5 Flash (Sep 2024),Google DeepMind,2024-09-24,129.33,135.7,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 1.5 Pro (Sept 2024),Google DeepMind,2024-09-24,131.72,135.7,False
+Top 3 vs every other company,Every other company,chasing,Llama 3.2 90B,Meta AI,2024-09-24,125.52,128.97,False
+Top 3 vs every other company,Every other company,chasing,Ministral 3B,Mistral AI,2024-10-16,118.04,128.97,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3.5 Haiku,Anthropic,2024-10-22,127.07,135.7,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3.5 Sonnet (October 2024),Anthropic,2024-10-22,133.43,135.7,False
+Top 3 vs every other company,Every other company,chasing,Mistral Large 2 (Nov 2024),Mistral AI,2024-11-18,128.57,128.97,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4o (Nov 2024),OpenAI,2024-11-20,128.69,135.7,False
+Top 3 vs every other company,Every other company,chasing,INTELLECT-1,"Prime Intellect,Hugging Face,Arcee AI",2024-11-29,100.54,128.97,False
+Top 3 vs every other company,Every other company,chasing,Llama 3.3 70B,Meta AI,2024-12-06,127.33,128.97,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.0 Flash (Dec 2024),"Google DeepMind,Google",2024-12-11,134.58,135.7,False
+Top 3 vs every other company,Every other company,chasing,Grok-2 (Dec 2024),xAI,2024-12-12,130.47,130.47,True
+Top 3 vs every other company,Every other company,chasing,Phi-4,Microsoft Research,2024-12-12,130.48,130.48,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o1,OpenAI,2024-12-17,141.72,141.72,True
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V3,DeepSeek,2024-12-26,132.3,132.3,True
+Top 3 vs every other company,Every other company,chasing,DeepSeek-R1,DeepSeek,2025-01-20,138.82,138.82,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.0 Flash Thinking (Jan 2025),"Google DeepMind,Google",2025-01-21,135.24,141.72,False
+Top 3 vs every other company,Every other company,chasing,Qwen2.5-Max,Alibaba,2025-01-25,132.48,138.82,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o3-mini,OpenAI,2025-01-31,140.2,141.72,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.0 Flash (Feb 2025),"Google DeepMind,Google",2025-02-05,134.62,141.72,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.0 Pro,Google DeepMind,2025-02-05,134.95,141.72,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude 3.7 Sonnet,Anthropic,2025-02-24,141.03,141.72,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4.5,OpenAI,2025-02-27,136.65,141.72,False
+Top 3 vs every other company,Every other company,chasing,QwQ-32B,Alibaba,2025-03-05,137.5,138.82,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 3 12B,Google DeepMind,2025-03-12,123.54,141.72,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 3 27B,Google DeepMind,2025-03-12,129.97,141.72,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 3 4B,Google DeepMind,2025-03-12,115.88,141.72,False
+Top 3 vs every other company,Every other company,chasing,Mistral Small 3.1,Mistral AI,2025-03-17,127.53,138.82,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V3 (Mar 2025),DeepSeek,2025-03-24,135.85,138.82,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Pro (Mar 2025),Google DeepMind,2025-03-31,143.96,143.96,True
+Top 3 vs every other company,Every other company,chasing,Llama 4 Scout,Meta AI,2025-04-05,129.63,138.82,False
+Top 3 vs every other company,Every other company,chasing,Llama 4 Maverick,Meta AI,2025-04-06,132.22,138.82,False
+Top 3 vs every other company,Every other company,chasing,Grok 3,xAI,2025-04-09,138.21,138.82,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4.1,OpenAI,2025-04-14,136.65,143.96,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4.1 mini,OpenAI,2025-04-14,134.89,143.96,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-4.1 nano,OpenAI,2025-04-14,129.54,143.96,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o3,OpenAI,2025-04-16,146.73,146.73,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o4-mini,OpenAI,2025-04-16,145.46,145.46,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Flash (Apr 2025),Google DeepMind,2025-04-17,139.84,146.73,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-235B-A22B,Alibaba,2025-04-28,139.15,139.15,True
+Top 3 vs every other company,Every other company,chasing,Qwen3-8B,Alibaba,2025-04-28,136.06,138.82,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-14B,Alibaba,2025-04-29,138.15,139.15,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-30B-A3B,Alibaba,2025-04-29,136.11,139.15,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-32B,Alibaba,2025-04-29,138.42,139.15,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Pro (May 2025),Google DeepMind,2025-05-06,142.15,146.73,False
+Top 3 vs every other company,Every other company,chasing,Mistral Medium 3,Mistral AI,2025-05-07,134.02,139.15,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Flash (May 2025),Google DeepMind,2025-05-20,141.43,146.73,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 4,Anthropic,2025-05-22,142.52,146.73,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Sonnet 4,Anthropic,2025-05-22,141.56,146.73,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek-R1 (May 2025),DeepSeek,2025-05-28,141.13,141.13,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Pro (Jun 2025),Google DeepMind,2025-06-05,145.13,146.73,False
+Top 3 vs every other company,Every other company,chasing,Magistral Small 1.0,Mistral AI,2025-06-10,133.07,141.13,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,o3-pro,OpenAI,2025-06-10,147.33,147.33,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Flash (Jun 2025),Google DeepMind,2025-06-17,140.59,147.33,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Flash-Lite (Jun 2025),Google DeepMind,2025-06-17,133.82,147.33,False
+Top 3 vs every other company,Every other company,chasing,Grok-3 mini,xAI,2025-06-24,140.2,141.13,False
+Top 3 vs every other company,Every other company,chasing,Grok 4,xAI,2025-07-09,146.24,146.24,True
+Top 3 vs every other company,Every other company,chasing,Kimi K2 (Jul 2025),Moonshot,2025-07-12,139.97,146.24,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-235B-A22B-Instruct (Jul 2025),Alibaba,2025-07-25,138.78,146.24,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,2025-07-25,143.76,146.24,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-30B-A3B-Instruct (Jul 2025),Alibaba,2025-07-29,137.27,146.24,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-30B-A3B-Thinking (Jul 2025),Alibaba,2025-07-30,139.55,146.24,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 4.1,Anthropic,2025-08-05,144.07,147.33,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,gpt-oss-120b,OpenAI,2025-08-05,139.79,147.33,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,gpt-oss-20b,OpenAI,2025-08-05,137.7,147.33,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5,OpenAI,2025-08-07,150.0,150.0,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5 mini,OpenAI,2025-08-07,145.34,147.33,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5 nano,OpenAI,2025-08-07,139.21,147.33,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V3.1,DeepSeek,2025-08-21,139.79,146.24,False
+Top 3 vs every other company,Every other company,chasing,Grok 4 Fast,xAI,2025-09-19,144.09,146.24,False
+Top 3 vs every other company,Every other company,chasing,Qwen3-Max,Alibaba,2025-09-24,142.33,146.24,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 2.5 Flash (Sep 2025),Google DeepMind,2025-09-25,142.9,150.0,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Sonnet 4.5,Anthropic,2025-09-29,146.74,150.0,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V3.2-Exp,DeepSeek,2025-09-29,144.91,146.24,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5 Pro,OpenAI,2025-10-07,150.59,150.59,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Haiku 4.5,Anthropic,2025-10-15,142.15,150.59,False
+Top 3 vs every other company,Every other company,chasing,Kimi K2 Thinking,Moonshot,2025-11-06,145.82,146.24,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.1,OpenAI,2025-11-13,149.76,150.59,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3 Pro,Google DeepMind,2025-11-18,153.07,153.07,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 4.5,Anthropic,2025-11-24,150.11,153.07,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V3.2,DeepSeek,2025-12-01,146.09,146.24,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.2,OpenAI,2025-12-11,153.66,153.66,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.2 Pro,OpenAI,2025-12-11,156.33,156.33,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3 Flash,Google DeepMind,2025-12-17,151.88,156.33,False
+Top 3 vs every other company,Every other company,chasing,GLM-4.7,Z.ai (Zhipu AI),2025-12-22,143.59,146.24,False
+Top 3 vs every other company,Every other company,chasing,Kimi K2.5,Moonshot,2026-01-27,148.07,148.07,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 4.6,Anthropic,2026-02-05,155.66,156.33,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.3 Codex,OpenAI,2026-02-05,157.09,157.09,True
+Top 3 vs every other company,Every other company,chasing,GLM-5,Z.ai (Zhipu AI),2026-02-11,145.8,148.07,False
+Top 3 vs every other company,Every other company,chasing,MiniMax-M2.5,MiniMax,2026-02-12,146.59,148.07,False
+Top 3 vs every other company,Every other company,chasing,Qwen3.5 397B-A17B,Alibaba,2026-02-13,146.8,148.07,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.5 Plus (hosted 397B-A17B),Alibaba,2026-02-16,146.17,148.07,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Sonnet 4.6,Anthropic,2026-02-17,152.79,157.09,False
+Top 3 vs every other company,Every other company,chasing,Grok 4.20,xAI,2026-02-17,152.11,152.11,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.1 Pro,Google DeepMind,2026-02-19,155.34,157.09,False
+Top 3 vs every other company,Every other company,chasing,Qwen3.5-35B-A3B,Alibaba,2026-02-24,142.49,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen3.5-9B,Alibaba,2026-02-24,139.32,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.5 Flash (hosted 35B-A3B),Alibaba,2026-02-25,143.52,152.11,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.1 Flash-Lite,Google,2026-03-03,144.26,157.09,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.4,OpenAI,2026-03-05,157.31,157.31,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.4 Pro,OpenAI,2026-03-05,159.57,159.57,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.4 Mini,OpenAI,2026-03-17,148.7,159.57,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.4 Nano,OpenAI,2026-03-17,146.03,159.57,False
+Top 3 vs every other company,Every other company,chasing,MiniMax-M2.7,MiniMax,2026-03-18,145.78,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.6 Plus,Alibaba,2026-03-31,147.3,152.11,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 4 26B A4B,Google DeepMind,2026-04-02,141.88,159.57,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemma 4 31B IT,Google DeepMind,2026-04-02,142.99,159.57,False
+Top 3 vs every other company,Every other company,chasing,GLM-5.1,Z.ai (Zhipu AI),2026-04-07,149.82,152.11,False
+Top 3 vs every other company,Every other company,chasing,Muse Spark,Meta AI,2026-04-08,152.03,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.6 35B-A3B,Alibaba,2026-04-14,143.73,152.11,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 4.7,Anthropic,2026-04-16,156.79,159.57,False
+Top 3 vs every other company,Every other company,chasing,Grok 4.3 Beta,xAI,2026-04-17,148.81,152.11,False
+Top 3 vs every other company,Every other company,chasing,Kimi K2.6,Moonshot,2026-04-20,150.94,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.6 Max (Preview),Alibaba,2026-04-20,149.41,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen3.6 27B,Alibaba,2026-04-22,146.23,152.11,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.5,OpenAI,2026-04-23,159.68,159.68,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.5 Pro,OpenAI,2026-04-23,162.91,162.91,True
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V4-Flash,DeepSeek,2026-04-24,146.11,152.11,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek-V4-Pro,DeepSeek,2026-04-24,149.13,152.11,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.6 Flash,Alibaba,2026-04-27,142.89,152.11,False
+Top 3 vs every other company,Every other company,chasing,Mistral Medium 3.5,Mistral AI,2026-04-28,141.36,152.11,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.5 Instant,OpenAI,2026-05-05,142.43,162.91,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.5 Flash,Google DeepMind,2026-05-19,154.88,162.91,False
+Top 3 vs every other company,Every other company,chasing,Qwen3.7-Max,Alibaba,2026-05-19,154.04,154.04,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 4.8,Anthropic,2026-05-28,159.01,162.91,False
+Top 3 vs every other company,Every other company,chasing,MiniMax-M3,MiniMax,2026-06-01,146.87,154.04,False
+Top 3 vs every other company,Every other company,chasing,Qwen3.7-Plus,Alibaba,2026-06-02,147.0,154.04,False
+Top 3 vs every other company,Every other company,chasing,Nemotron 3 Ultra,Nvidia,2026-06-04,145.97,154.04,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Fable 5,Anthropic,2026-06-09,163.42,163.42,True
+Top 3 vs every other company,Every other company,chasing,Kimi K2.7 Code,Moonshot,2026-06-12,150.11,154.04,False
+Top 3 vs every other company,Every other company,chasing,GLM-5.2,Z.ai (Zhipu AI),2026-06-16,151.94,154.04,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Sonnet 5,Anthropic,2026-06-30,156.88,163.42,False
+Top 3 vs every other company,Every other company,chasing,Grok 4.5,xAI,2026-07-08,154.07,154.07,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.6 Luna,OpenAI,2026-07-09,156.5,163.42,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.6 Sol,OpenAI,2026-07-09,162.79,163.42,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-5.6 Terra,OpenAI,2026-07-09,160.09,163.42,False
+Top 3 vs every other company,Every other company,chasing,Muse Spark 1.1,Meta AI,2026-07-09,154.05,154.07,False
+Top 3 vs every other company,Every other company,chasing,Inkling,Thinking Machines,2026-07-15,148.41,154.07,False
+Top 3 vs every other company,Every other company,chasing,Inkling-Small,Thinking Machines,2026-07-15,150.32,154.07,False
+Top 3 vs every other company,Every other company,chasing,Kimi K3,Moonshot,2026-07-16,157.86,157.86,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.5 Flash-Lite,Google DeepMind,2026-07-21,144.91,163.42,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.6 Flash,Google DeepMind,2026-07-21,154.53,163.42,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 5,Anthropic,2026-07-24,163.94,163.94,True
+Top 3 vs every other company,Every other company,chasing,Qwen3.7 Flash,Alibaba,2026-07-27,144.05,157.86,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek V4 Flash 0731,DeepSeek,2026-07-31,154.76,157.86,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.8 Max,Alibaba,2026-08-02,157.4,157.86,False
+Top 3 vs every other company,Every other company,chasing,Muse Spark 1.2,Meta AI,2026-08-05,155.05,157.86,False
+Top 3 vs every other company,Every other company,chasing,Grok 4.6,xAI,2026-08-12,156.57,157.86,False
+Top 3 vs every other company,Every other company,chasing,DeepSeek V4 Pro 0813,DeepSeek,2026-08-13,155.64,157.86,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.7 Flash,Google DeepMind,2026-08-13,157.97,163.94,False
+Top 3 vs every other company,Every other company,chasing,GLM-5.3,Z.ai (Zhipu AI),2026-08-14,155.99,157.86,False
+Top 3 vs every other company,Every other company,chasing,Qwen 3.8 27B,Alibaba,2026-08-14,151.69,157.86,False
+Top 3 vs every other company,Every other company,chasing,GLM-5.3-Flash,Z.ai (Zhipu AI),2026-08-20,153.08,157.86,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Fable 5.1,Anthropic,2026-09-01,166.49,166.49,True
+Top 3 vs every other company,Every other company,chasing,Qwen3.8 Max (0902),Alibaba,2026-09-01,155.08,157.86,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 3.8 Flash,Google DeepMind,2026-09-02,157.44,166.49,False
+Top 3 vs every other company,Every other company,chasing,Muse Spark 1.3,Meta AI,2026-09-02,157.21,157.86,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-6 Astra,OpenAI,2026-09-03,168.81,168.81,True
+Top 3 vs every other company,Every other company,chasing,DeepSeek V4.1 Flash,DeepSeek,2026-09-09,155.93,157.86,False
+Top 3 vs every other company,Every other company,chasing,Grok 4.7,xAI,2026-09-21,154.37,157.86,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Opus 5.5,Anthropic,2026-09-22,168.83,168.83,True
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-6 Luna,OpenAI,2026-09-22,156.75,168.81,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-6 Sol,OpenAI,2026-09-22,163.73,168.81,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Sonnet 5.5,Anthropic,2026-09-28,166.18,168.83,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,GPT-6.1 Sol,OpenAI,2026-09-29,168.37,168.83,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Gemini 4 Argon,Google DeepMind,2026-09-30,166.45,168.83,False
+Top 3 vs every other company,Every other company,chasing,Mistral Large 4,Mistral AI,2026-10-06,150.03,157.86,False
+Top 3 vs every other company,"Top 3: OpenAI, Google, Anthropic",leading,Claude Haiku 5.5,Anthropic,2026-10-07,159.32,168.83,False
+Top 3 vs every other company,Every other company,chasing,Muse Wonder,Meta AI,2026-10-12,161.85,161.85,True
+Top 3 vs every other company,Every other company,chasing,Muse Spark Open,Meta AI,2026-10-15,155.11,161.85,False
