@@ -65,6 +65,9 @@ if filtered.empty:
     st.stop()
 
 measure, y_label, decimals = METRIC[metric_name]
+# Unit of the plotted values, named in the legend title
+UNIT = {"effective_organisations": "count of organisations", "top_share_pct": "% of model credits",
+        "hhi_0_10000": "HHI index points (0 to 10,000)"}
 colours = {SAMPLE_NOTABLE: "#2A78D6", SAMPLE_FRONTIER: "#C45F23"}
 symbols = {SAMPLE_NOTABLE: "circle", SAMPLE_FRONTIER: "square"}
 fig = go.Figure()
@@ -86,14 +89,14 @@ for sample in samples:
 fig.update_layout(
     title=f"{metric_name} by release year and dataset",
     height=450,
-    margin=dict(l=12, r=25, t=70, b=20),
+    margin=dict(l=12, r=25, t=115, b=20),
     paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
     font=dict(size=14, color="#3d3d3a"),
-    legend=dict(orientation="h", yanchor="bottom", y=1.02),
+    legend=dict(orientation="h", yanchor="bottom", y=1.02, title=f"Dataset, {UNIT[measure]}"),
     xaxis=dict(title="Model release year", dtick=1, gridcolor="#eeeeeb"),
     yaxis=dict(title=y_label, rangemode="tozero", gridcolor="#e6e6e3"),
 )
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig)
 
 # Keep a complete, qualified statement on screen, independent of hover.
 shared_years = sorted(set(metrics[metrics["sample"] == SAMPLE_NOTABLE].year)
@@ -129,7 +132,7 @@ with st.expander("Check the underlying numbers and methodology"):
         filtered[["year", "sample", "sample_models", "organisations", "top_organisation",
                   "top_share_pct", "hhi_0_10000", "effective_organisations"]]
         .sort_values(["year", "sample"]),
-        use_container_width=True,
+        width="stretch",
     )
     st.markdown(r"""
 **Calculation.** For each year, allocate each model one credit. If it has multiple credited

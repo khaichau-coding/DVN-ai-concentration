@@ -115,7 +115,8 @@ fig.update_layout(
 st.plotly_chart(fig, config={"displayModeBar": False})
 st.caption(
     "Each faint dot is one model; the lines step up when a model beats its group's best so far. "
-    "Values at the right are each group's best score at the end of the period shown."
+    "Values at the right are each group's best score at the end of the period shown. Every dot's "
+    "model, date and score is listed in the table further down."
 )
 
 st.subheader("The gap at each half-year end")
@@ -138,6 +139,20 @@ st.caption(
     "so the leading group's earlier models are not scored. The last row is the latest data, mid-October 2026."
 )
 
+# Every dot on the chart with its exact score, so no value needs hovering
+st.subheader(f"Every model in the chart ({len(shown)} models)")
+st.dataframe(
+    shown.sort_values("date", ascending=False).assign(**{
+        "Release date": shown["date"].dt.strftime("%d %b %Y"),
+        "Group": shown["group"],
+        "ECI score (index points)": shown["eci"],
+        "Group best so far (ECI)": shown["best_so_far"],
+        "New group best": shown["is_record"].map({True: "Yes", False: ""}),
+    })[["Release date", "Model", "Organization", "Group", "ECI score (index points)",
+        "Group best so far (ECI)", "New group best"]],
+    hide_index=True, width="stretch", height=320,
+)
+
 st.subheader("What this data cannot show")
 st.markdown("""
 - **Every model.** ECI covers only models Epoch has benchmark results for, from February 2023.
@@ -145,6 +160,6 @@ st.markdown("""
   comparison; models with unknown or limited access are left out of the weights comparison.
 - **Quality beyond benchmarks.** A gap in ECI points says nothing about cost, reliability or how many
   people use a model.
-- **Why the gap stays steady.** Imitation, distillation, open publishing and talent moves could all play
-  a part; the data does not say which.
+- **Why the gap moves as it does.** Imitation, distillation, open publishing, investment and talent moves
+  could all play a part; the data does not say which.
 """)
