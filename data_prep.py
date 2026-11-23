@@ -11,6 +11,9 @@ The app has three layers, each narrower than the last:
 1. Who builds notable models?        data/raw/notable_ai_models.csv
 2. Who builds the top-scoring ones?  data/raw/benchmark_data/eci_scores.csv
 3. Who owns and uses the AI chips?   data/raw/ai_chip_owners/, data/raw/ai_chip_users/
+
+The Frontier Gap page (pages/5_Frontier_Gap.py) reads two more tables from
+the ECI file: how far the best models outside the leading group trail it.
 """
 
 from pathlib import Path
@@ -152,6 +155,83 @@ def leaders_by_year(eci: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(out)
 
 
+# Frontier gap page: how far behind the leading group are the others?
+
+# Each comparison splits the ECI models into a leading and a chasing group
+COMPARISONS = {
+    "Top 3 vs every other company": ("Top 3: OpenAI, Google, Anthropic", "Every other company"),
+    "Closed weights vs open weights": ("Closed weights", "Open weights"),
+}
+
+
+def frontier_models(eci: pd.DataFrame) -> pd.DataFrame:
+    """Every ECI model in each comparison, with the best score its group had reached by then.
+
+    Top 3 comparison: models with no organisation in the source are left
+    out, since they cannot be placed in either group (PaLM 2 is Google's
+    but the file does not say so). Weights comparison: models whose
+    accessibility Epoch records as unknown or limited ("Other") are left out.
+    """
+    out = []
+    (top3, others), (closed, open_) = COMPARISONS.values()
+    named_models = split_orgs(eci.dropna(subset=["Organization"]), "Organization")
+    leader = named_models.groupby("Model")["org"].apply(lambda orgs: orgs.isin(NAMED_LEADERS).any())
+    for comparison, df in [
+        ("Top 3 vs every other company",
+         eci[eci["Model"].isin(leader.index)].assign(group=lambda d: d["Model"].map(leader).map({True: top3, False: others}))),
+        ("Closed weights vs open weights",
+         eci[eci["Accessibility group"].isin([closed, open_])].assign(group=lambda d: d["Accessibility group"])),
+    ]:
+        df = df.assign(comparison=comparison,
+                       role=df["group"].map({top3: "leading", others: "chasing",
+                                             closed: "leading", open_: "chasing"}))
+        df = df.sort_values(["group", "date", "eci"]).copy()
+        df["best_so_far"] = df.groupby("group")["eci"].cummax()
+        # A record is a model that raised its group's best score
+        df["is_record"] = df["eci"] >= df["best_so_far"]
+        out.append(df)
+    cols = ["comparison", "group", "role", "Model", "Organization", "date", "eci", "best_so_far", "is_record"]
+    return pd.concat(out)[cols].sort_values(["comparison", "date", "Model"]).reset_index(drop=True)
+
+
+def frontier_gap(models: pd.DataFrame) -> pd.DataFrame:
+    """Gap between the two groups' best scores at each half-year end and at the latest date.
+
+    months_behind: the chasing group's best model matched a score the
+    leading group had first reached this many months earlier.
+    """
+    last = models["date"].max()
+    ends = [d.strftime("%Y-%m-%d") for d in pd.date_range("2023-06-30", last, freq="6ME")] + [last]
+    out = []
+    for comparison, df in models.groupby("comparison"):
+        lead, chase = df[df["role"] == "leading"], df[df["role"] == "chasing"]
+        for end in ends:
+            lead_now, chase_now = lead[lead["date"] <= end], chase[chase["date"] <= end]
+            if lead_now.empty or chase_now.empty:
+                continue
+            best_lead = lead_now.loc[lead_now["eci"].idxmax()]
+            best_chase = chase_now.loc[chase_now["eci"].idxmax()]
+            # First leading-group model that reached the chasing group's best score
+            reached = lead[lead["eci"] >= best_chase["eci"]].sort_values("date").head(1)
+            months = (round((pd.Timestamp(best_chase["date"]) - pd.Timestamp(reached["date"].iloc[0])).days / 30.44, 1)
+                      if not reached.empty else None)
+            # ECI starts in February 2023, so a chasing model released before the
+            # leading group's first scored model has no measurable lag
+            if months is not None and months <= 0:
+                months = None
+            out.append({
+                "comparison": comparison, "period_end": end,
+                "leading_best_eci": best_lead["eci"], "leading_best_model": best_lead["Model"],
+                "chasing_best_eci": best_chase["eci"], "chasing_best_model": best_chase["Model"],
+                "chasing_best_date": best_chase["date"],
+                "gap_eci": round(best_lead["eci"] - best_chase["eci"], 2),
+                "leading_first_reached_model": reached["Model"].iloc[0] if not reached.empty else None,
+                "leading_first_reached_date": reached["date"].iloc[0] if not reached.empty else None,
+                "months_behind": months,
+            })
+    return pd.DataFrame(out)
+
+
 # Layer 3: who owns and uses the chips
 
 def chips_owned() -> pd.DataFrame:
@@ -211,6 +291,7 @@ def build(out: Path = OUT) -> list:
     """Write every processed table to `out` and return the file names."""
     out.mkdir(exist_ok=True)
     notable, eci, owned = load_notable(), load_eci(), chips_owned()
+    frontier = frontier_models(eci)
     tables = {
         "builders_by_year.csv": builders_by_year(notable),
         "leaders_by_year.csv": leaders_by_year(eci),
@@ -218,6 +299,8 @@ def build(out: Path = OUT) -> list:
         "chips_owned_by_quarter.csv": owned,
         "chips_used_by_lab.csv": chips_used(),
         "summary.csv": summary(notable, eci, owned),
+        "eci_frontier_models.csv": frontier,
+        "frontier_gap.csv": frontier_gap(frontier),
     }
     for name, table in tables.items():
         table.to_csv(out / name, index=False)

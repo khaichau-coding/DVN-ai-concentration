@@ -49,6 +49,12 @@ shows both readings and argues the frontier and the chips matter more for compet
    *Walk-through:* section 3 chip-ownership chart, comparing the first bar (before ChatGPT) with end
    2025 → the lab compute dot plot and its table of estimate ranges → "What this data cannot show".
 
+The **Frontier Gap** page (sidebar) tests the answer from the other side. Since the end of 2024
+the best model from outside OpenAI, Google and Anthropic has trailed by 6.2 to 10.1 ECI points and
+3 to 6 months, without a steady widening, which supports reading the frontier as crowded rather
+than locked up. The gap to the best open-weights model has grown, from 6.2 points in mid-2025 to
+about 11, which supports the opposite reading.
+
 The **Concentration Check** page (sidebar) adds a fourth story by ggrr8: comparing concentration with
 HHI, the effective number of organisations and the largest share. See
 `concentration_analysis/README.md`.
@@ -62,6 +68,7 @@ HHI, the effective number of organisations and the largest share. See
 | 3. Share of AI chips owned, March 2022 to December 2025 | Who owns what share of all AI chips | 100% stacked column with totals | Part-to-whole | Hover |
 | 4. Compute each lab can use, end 2024 and end 2025 | Rank labs and show how uncertain the estimates are | Ordered dot plot with 5th to 95th percentile ranges | Ranking | Hover; ranges in the table |
 | 5. Concentration Check (separate page) | How concentration measures change over time | Labelled line chart | Change over time | Metric selector, year range, sample filter with an empty-selection message |
+| 6. Frontier Gap (separate page) | How far the best models outside the leading group trail it, and whether the gap widens | Step lines of the best score so far over a dot strip of every model, gap labelled | Change over time | Comparison toggle (top 3 vs others, closed vs open weights), year range |
 
 **Readability.** Every chart has a title stating what it shows, and labelled axes and legends with
 units. Values are written on the bars and dots; small segments and uncertainty ranges are in a
@@ -85,7 +92,7 @@ columns and units, primary key, time coverage, latest observation and the transf
 
 ```
 data/raw/          Four Epoch AI files, unchanged
-data/processed/    Seven tables the app reads, written by the scripts below
+data/processed/    Nine tables the app reads, written by the scripts below
 data/DATA_DICTIONARY.md
 ```
 
@@ -93,7 +100,7 @@ data/DATA_DICTIONARY.md
 
 ```bash
 pip install -r requirements.txt
-python data_prep.py                              # rebuild the main page's six tables
+python data_prep.py                              # rebuild the main and Frontier Gap tables
 python -m concentration_analysis.build_metrics   # rebuild the Concentration Check table
 python checks/check_numbers.py                   # recompute headline numbers from raw, compare
 python -m concentration_analysis.test_metrics    # check the Concentration Check values
@@ -108,6 +115,7 @@ rebuilds every processed table to confirm it matches the committed file byte for
 ```
 app.py                         Main page: question, answer, three layers, limits
 pages/4_Concentration_Check.py Concentration Check page (ggrr8)
+pages/5_Frontier_Gap.py        Frontier Gap page: how far the others trail the leading group
 data_prep.py                   Every calculation for the main page, raw to processed
 concentration_analysis/        Calculations and test for the Concentration Check page (ggrr8)
 checks/check_numbers.py        Independent recomputation of headline numbers

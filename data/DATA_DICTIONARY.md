@@ -8,7 +8,7 @@ Every file in `data/`, what it holds and how it was made.
   script named below. Delete the folder and run the scripts to get identical files back:
 
   ```bash
-  python data_prep.py                              # main page: the first six tables
+  python data_prep.py                              # main page and Frontier Gap page: eight tables
   python -m concentration_analysis.build_metrics   # Concentration Check page
   python checks/check_numbers.py                   # recompute headline numbers, compare
   ```
@@ -31,6 +31,8 @@ All four sources are published by Epoch AI under the **Creative Commons Attribut
 | `processed/chips_used_by_lab.csv` | Processed | 11 | `company`, `Year` | End 2023 to end 2025 | 2025-12-31 | App, layer 3 |
 | `processed/summary.csv` | Processed | 11 | `metric` | Whole package | 2026-10-15 | App, opening screen and limits |
 | `processed/concentration_metrics.csv` | Processed | 12 | `sample`, `year` | 2019 to 2026 | 2026-10-15 | Concentration Check page |
+| `processed/eci_frontier_models.csv` | Processed | 499 | `comparison`, `Model` | 2023-02-24 to 2026-10-15 | 2026-10-15 | Frontier Gap page |
+| `processed/frontier_gap.csv` | Processed | 16 | `comparison`, `period_end` | Mid-2023 to mid-October 2026 | 2026-10-15 | Frontier Gap page |
 
 ---
 
@@ -219,3 +221,41 @@ in full in `concentration_analysis/README.md`. Columns: `year`, `sample`, `sampl
 0 to 10,000), `effective_organisations` (dimensionless count). **Primary key:** `sample` + `year`.
 **Transform:** notable models per year, or each year's ECI top 10 → split joint models → merge
 companies → shares of model credits → HHI = 10,000 × Σ share², effective number = 1 / Σ share².
+
+### `processed/eci_frontier_models.csv`
+
+Frontier Gap page: every ECI model placed in a leading or a chasing group, with its group's best
+score so far.
+
+| Column | Type and unit | Meaning |
+|---|---|---|
+| `comparison` | text | "Top 3 vs every other company" or "Closed weights vs open weights" |
+| `group` | text | Top 3: OpenAI, Google, Anthropic / Every other company; or Closed weights / Open weights |
+| `role` | text | `leading` or `chasing` |
+| `Model`, `Organization`, `date`, `eci` | as in the source | Copied from `eci_scores.csv` |
+| `best_so_far` | number, ECI index points | Highest `eci` in the same group released on or before `date` |
+| `is_record` | `True` / `False` | `True` when the model raised its group's best score |
+
+**Transform:** `eci_scores.csv` → Top 3 comparison: drop the 17 models with no organisation, then
+a model is in the Top 3 group if any of its organisations (after the company merge) is OpenAI,
+Google or Anthropic (253 models). Weights comparison: keep `Accessibility group` Closed weights or
+Open weights, dropping the 24 "Other" models of unknown or limited access (246 models) → sort by
+date → running maximum of `eci` within each group.
+
+### `processed/frontier_gap.csv`
+
+Frontier Gap page: the gap between the two groups at each half-year end and at the latest date.
+
+| Column | Type and unit | Meaning |
+|---|---|---|
+| `comparison` | text | As above |
+| `period_end` | date (YYYY-MM-DD) | 30 June or 31 December from 2023-06-30, then the latest model date, 2026-10-15 |
+| `leading_best_eci`, `chasing_best_eci` | number, ECI index points | Each group's best score released on or before `period_end` |
+| `leading_best_model`, `chasing_best_model` | text | The models with those scores |
+| `chasing_best_date` | date | Release date of `chasing_best_model` |
+| `gap_eci` | number, ECI index points | `leading_best_eci` minus `chasing_best_eci` |
+| `leading_first_reached_model`, `leading_first_reached_date` | text, date | First leading-group model with an ECI at least `chasing_best_eci` |
+| `months_behind` | number, months (days / 30.44) | `chasing_best_date` minus `leading_first_reached_date`; blank when not positive (mid-2023, before the leading group's first scored model) |
+
+**Transform:** `eci_frontier_models.csv` → for each comparison and period end, take each group's
+highest `eci` so far, subtract, and find the earliest leading model at or above the chasing best.
