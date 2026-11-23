@@ -127,10 +127,11 @@ requirements.txt               Pinned package versions
 
 ## Team
 
-| GitHub account | Contribution |
-|---|---|
-| khaichau-coding | Question, persona, layers 1 to 3 of the main page, data package, checks |
-| ggrr8 | Concentration Check page and `concentration_analysis/` |
+|Team Member | GitHub account | Contribution |
+|---|---|---|
+| Minh Khai Chau| khaichau-coding | Question, persona, layers 1 to 3 of the main page, data package, checks |
+| Gorui Gao| ggrr8 | Concentration Check page and `concentration_analysis/` |
+| Arhan Ali Syed | Arhan789 | Frontier_Gap page |
 
 ## Data and AI disclosure
 
