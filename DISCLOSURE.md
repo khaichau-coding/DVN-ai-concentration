@@ -21,13 +21,14 @@
 
 ## AI
 
-- **khaichau-coding** used **Claude** (Anthropic, through Claude Code) to write the code for the main
+- **Minh Khai Chau khaichau-coding** used **Claude** (Anthropic, through Claude Code) to write the code for the main
   page (`app.py`, `data_prep.py`), the check script in `checks/`, and drafts of the README, data
   dictionary and this statement. The question, persona, choice of layers, the 2019 start, the
   ChatGPT marker, and the decision to rank by benchmark score and to add chip ownership were the
   member's own decisions.
-- **ggrr8** used **ChatGPT** to generate suggested code and documentation for the Concentration
+- **Gorui Gao ggrr8** used **ChatGPT** to generate suggested code and documentation for the Concentration
   Check page, as recorded in `concentration_analysis/README.md`.
+- **Arhan Ali Syed Arhan789** used ** Claude Code** to write the code for the page Frotier Gap. The idea about comparing the frontier with open source model, graph design is created by Arhan.
 - AI was not used to create, alter or fill in any data.
 - Every substantive AI use, and the check that verified it, is recorded in
   [`AI_PROVENANCE.md`](AI_PROVENANCE.md). The group takes responsibility for every number and claim
