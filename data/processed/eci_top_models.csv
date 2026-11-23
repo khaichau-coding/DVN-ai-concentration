@@ -1,0 +1,81 @@
+year,rank,Model,Organization,date,eci,Company
+2023,1,GPT-4 (Mar 2023),OpenAI,2023-03-14,125.74,OpenAI
+2023,2,GPT-4 (Jun 2023),OpenAI,2023-06-13,123.09,OpenAI
+2023,3,Claude Instant,Anthropic,2023-08-09,120.21,Anthropic
+2023,4,Claude 2,Anthropic,2023-07-11,120.19,Anthropic
+2023,5,Claude 2.1,Anthropic,2023-11-21,119.32,Anthropic
+2023,6,GPT-3.5 Turbo (Nov 2023),OpenAI,2023-11-06,118.53,OpenAI
+2023,7,Mixtral 8x7B,Mistral AI,2023-12-11,118.44,Mistral AI
+2023,8,Yi-34B,01.AI,2023-11-02,117.33,01.AI
+2023,9,Gemini 1.0 Pro,Google DeepMind,2023-12-13,117.14,Google
+2023,10,Stable Beluga 2,Stability AI,2023-07-20,117.02,Stability AI
+2023,11,PaLM 2-L,Not stated in source,2023-05-17,114.9,Not stated in source
+2023,12,Llama 2-70B,Meta AI,2023-07-18,113.67,Meta
+2023,13,GPT-3.5 Turbo (Jun 2023),OpenAI,2023-06-13,113.22,OpenAI
+2023,14,Qwen-14B,Alibaba,2023-09-24,112.88,Alibaba
+2023,15,Mistral 7B v0.1,Mistral AI,2023-09-27,112.05,Mistral AI
+2023,16,Falcon-180B,Technology Innovation Institute,2023-09-06,111.96,Technology Innovation Institute
+2023,17,internlm-20b,Not stated in source,2023-09-18,111.92,Not stated in source
+2023,18,LLaMA-65B,Meta AI,2023-02-24,109.97,Meta
+2023,19,PaLM 2-M,Not stated in source,2023-05-17,108.06,Not stated in source
+2023,20,Phi-2,Microsoft,2023-12-12,107.73,Microsoft
+2024,1,o1,OpenAI,2024-12-17,141.72,OpenAI
+2024,2,o1-mini,OpenAI,2024-09-12,135.7,OpenAI
+2024,3,Gemini 2.0 Flash (Dec 2024),"Google DeepMind,Google",2024-12-11,134.58,Google
+2024,4,o1-preview,OpenAI,2024-09-12,134.57,OpenAI
+2024,5,Claude 3.5 Sonnet (October 2024),Anthropic,2024-10-22,133.43,Anthropic
+2024,6,DeepSeek-V3,DeepSeek,2024-12-26,132.3,DeepSeek
+2024,7,Gemini 1.5 Pro (Sept 2024),Google DeepMind,2024-09-24,131.72,Google
+2024,8,Phi-4,Microsoft Research,2024-12-12,130.48,Microsoft
+2024,9,Grok-2 (Dec 2024),xAI,2024-12-12,130.47,xAI
+2024,10,Claude 3.5 Sonnet,Anthropic,2024-06-20,130.0,Anthropic
+2024,11,Gemini 1.5 Flash (Sep 2024),Google DeepMind,2024-09-24,129.33,Google
+2024,12,GPT-4o (May 2024),OpenAI,2024-05-13,128.99,OpenAI
+2024,13,Qwen2.5-72B,Alibaba,2024-09-19,128.97,Alibaba
+2024,14,GPT-4o (Aug 2024),OpenAI,2024-08-06,128.83,OpenAI
+2024,15,Llama 3.1-405B,Meta AI,2024-07-23,128.77,Meta
+2024,16,GPT-4o (Nov 2024),OpenAI,2024-11-20,128.69,OpenAI
+2024,17,Mistral Large 2 (Nov 2024),Mistral AI,2024-11-18,128.57,Mistral AI
+2024,18,Mistral Large 2 (Jul 2024),Mistral AI,2024-07-24,127.57,Mistral AI
+2024,19,Llama 3.3 70B,Meta AI,2024-12-06,127.33,Meta
+2024,20,GPT-4 Turbo (Apr 2024),OpenAI,2024-04-09,127.27,OpenAI
+2025,1,GPT-5.2 Pro,OpenAI,2025-12-11,156.33,OpenAI
+2025,2,GPT-5.2,OpenAI,2025-12-11,153.66,OpenAI
+2025,3,Gemini 3 Pro,Google DeepMind,2025-11-18,153.07,Google
+2025,4,Gemini 3 Flash,Google DeepMind,2025-12-17,151.88,Google
+2025,5,GPT-5 Pro,OpenAI,2025-10-07,150.59,OpenAI
+2025,6,Claude Opus 4.5,Anthropic,2025-11-24,150.11,Anthropic
+2025,7,GPT-5,OpenAI,2025-08-07,150.0,OpenAI
+2025,8,GPT-5.1,OpenAI,2025-11-13,149.76,OpenAI
+2025,9,o3-pro,OpenAI,2025-06-10,147.33,OpenAI
+2025,10,Claude Sonnet 4.5,Anthropic,2025-09-29,146.74,Anthropic
+2025,11,o3,OpenAI,2025-04-16,146.73,OpenAI
+2025,12,Grok 4,xAI,2025-07-09,146.24,xAI
+2025,13,DeepSeek-V3.2,DeepSeek,2025-12-01,146.09,DeepSeek
+2025,14,Kimi K2 Thinking,Moonshot,2025-11-06,145.82,Moonshot
+2025,15,o4-mini,OpenAI,2025-04-16,145.46,OpenAI
+2025,16,GPT-5 mini,OpenAI,2025-08-07,145.34,OpenAI
+2025,17,Gemini 2.5 Pro (Jun 2025),Google DeepMind,2025-06-05,145.13,Google
+2025,18,DeepSeek-V3.2-Exp,DeepSeek,2025-09-29,144.91,DeepSeek
+2025,19,Grok 4 Fast,xAI,2025-09-19,144.09,xAI
+2025,20,Claude Opus 4.1,Anthropic,2025-08-05,144.07,Anthropic
+2026,1,Claude Opus 5.5,Anthropic,2026-09-22,168.83,Anthropic
+2026,2,GPT-6 Astra,OpenAI,2026-09-03,168.81,OpenAI
+2026,3,GPT-6.1 Sol,OpenAI,2026-09-29,168.37,OpenAI
+2026,4,Claude Fable 5.1,Anthropic,2026-09-01,166.49,Anthropic
+2026,5,Gemini 4 Argon,Google DeepMind,2026-09-30,166.45,Google
+2026,6,Claude Sonnet 5.5,Anthropic,2026-09-28,166.18,Anthropic
+2026,7,Claude Opus 5,Anthropic,2026-07-24,163.94,Anthropic
+2026,8,GPT-6 Sol,OpenAI,2026-09-22,163.73,OpenAI
+2026,9,Claude Fable 5,Anthropic,2026-06-09,163.42,Anthropic
+2026,10,GPT-5.5 Pro,OpenAI,2026-04-23,162.91,OpenAI
+2026,11,GPT-5.6 Sol,OpenAI,2026-07-09,162.79,OpenAI
+2026,12,Muse Wonder,Meta AI,2026-10-12,161.85,Meta
+2026,13,GPT-5.6 Terra,OpenAI,2026-07-09,160.09,OpenAI
+2026,14,GPT-5.5,OpenAI,2026-04-23,159.68,OpenAI
+2026,15,GPT-5.4 Pro,OpenAI,2026-03-05,159.57,OpenAI
+2026,16,Claude Haiku 5.5,Anthropic,2026-10-07,159.32,Anthropic
+2026,17,Claude Opus 4.8,Anthropic,2026-05-28,159.01,Anthropic
+2026,18,Gemini 3.7 Flash,Google DeepMind,2026-08-13,157.97,Google
+2026,19,Kimi K3,Moonshot,2026-07-16,157.86,Moonshot
+2026,20,Gemini 3.8 Flash,Google DeepMind,2026-09-02,157.44,Google

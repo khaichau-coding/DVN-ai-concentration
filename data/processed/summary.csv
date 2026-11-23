@@ -1,0 +1,12 @@
+metric,value,unit,definition
+data_downloaded,2026-10-27,date,Day the Epoch AI files were downloaded
+notable_latest,2026-10-12,date,Latest publication date in notable_ai_models.csv
+eci_latest,2026-10-15,date,Latest release date in eci_scores.csv
+chips_latest,2025-12-31,date,Latest complete quarter in the chip owner file
+notable_models,701,models,Notable models published 2019 to mid-October 2026 with an organisation
+notable_organisations,254,organisations,"Different organisations behind those models, 2019-2026"
+eci_models,270,models,"Models with an ECI score, released 2023 to mid-October 2026"
+eci_companies,29,organisations,Different organisations behind the models with an ECI score
+compute_known_pct_2026,23.6,%,Share of 2026 notable models with a training compute figure
+google_models_2025,15,models,Google notable models published in 2025
+google_models_with_compute_2025,1,models,"Of those, models with a training compute figure"
